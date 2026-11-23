@@ -44,5 +44,20 @@ namespace WFPBabel
                 );
             }
         }
+
+        private void pnlMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblBienvenida_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTituloAlumnos_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
