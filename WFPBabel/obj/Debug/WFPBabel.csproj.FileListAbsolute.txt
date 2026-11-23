@@ -84,3 +84,4 @@ C:\PROYECTO_MADS\Babel\WFPBabel\obj\Debug\WFPBabel.csproj.CoreCompileInputs.cach
 C:\PROYECTO_MADS\Babel\WFPBabel\obj\Debug\WFPBabel.csproj.Up2Date
 C:\PROYECTO_MADS\Babel\WFPBabel\obj\Debug\WFPBabel.exe
 C:\PROYECTO_MADS\Babel\WFPBabel\obj\Debug\WFPBabel.pdb
+C:\PROYECTO_MADS\Babel\WFPBabel\obj\Debug\WFPBabel.FrmAlumnos.resources

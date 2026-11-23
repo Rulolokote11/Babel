@@ -18,46 +18,17 @@ namespace WFPBabel
             InitializeComponent();
         }
 
-        private void btnProbarConexion_Click(object sender, EventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
         {
-            try
-            {
-                using (var conexion = Conexion.ObtenerConexion())
-                {
-                    conexion.Open();
-
-                    MessageBox.Show(
-                        "Conexión exitosa con la base de datos BABEL",
-                        "Conexión",
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Information
-                    );
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(
-                    "Error al conectar: " + ex.Message,
-                    "Error",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Error
-                );
-            }
+            MessageBox.Show("Saliendo de la aplicación...,","Cerrar aplicación");
+            Application.Exit();
         }
 
-        private void pnlMenu_Paint(object sender, PaintEventArgs e)
+        private void btnAlumnos_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void lblBienvenida_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblTituloAlumnos_Click(object sender, EventArgs e)
-        {
-
+           FrmAlumnos frmAlumnos = new FrmAlumnos();
+           this.Hide();
+           frmAlumnos.Show();
         }
     }
 }
